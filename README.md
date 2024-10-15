@@ -7,7 +7,7 @@ This tool provides basic DNS operations such as querying fully qualified domain 
 - **DNS Lookup**: Query DNS records for any domain.
 - **DNS Trace**: Enable or disable request tracing.
 - **Change DNS Server**: Set a specific DNS server for lookups.
-- **Dump Results**: Save the output of your commands to a file.
+- **Dump Results**: Dumps cached recent DNS lookup results.
 - **Quit**: Exit the tool.
 
 ## Commands
@@ -20,12 +20,23 @@ Performs a DNS lookup for the specified domain.
 - `fqdn`: The fully qualified domain name to look up (e.g., `google.com`).
 - `type`: (Optional) The type of DNS record to retrieve (e.g., `A`, `MX`, `CNAME`). If not provided, it defaults to `A` records.
 
-**Example:**
-```bash
-lookup google.com A
+- ### 2. `trace on|off`
 
+Enables or disables tracing of DNS request processing. This can be useful for debugging DNS issues.  
+- `on`: Enables DNS tracing.
+- `off`: Disables DNS tracing.
 
+- ### 3. `server IP`
 
+Changes the DNS server to a custom server by specifying its IP address. 
+
+- ### 4. `dump`
+
+Dumps cached recent DNS lookup results.
+
+- ### 5. `quit`
+
+Exits the DNS Lookup Tool.
 
 
 
