@@ -38,6 +38,10 @@ Dumps cached recent DNS lookup results.
 
 Exits the DNS Lookup Tool.
 
+## Commands
+go to the file directory,make clean, make, then java -jar DNSLookupService.jar rootserver(example: 198.41.0.4)
+
+
 
 
 
